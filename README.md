@@ -25,7 +25,7 @@ This mode automatically runs through the safety check of the system before grant
 
 ### Test Connection
 
-This mode tests the connection between both modules.
+This mode tests the connection between both modules. To do that, the detonator instantiates an array of 8 elements. Each element is assigned a random value between 0 and 255. Then this array is sent to the box. The box processes this array, and then sends back the array that it read. Once the detonator receives this processed array, it compares it with the original array to make sure that they are identical. If they are not, that means that the connection was not good enough. This is done 20 times, and a percentage is derived to quantify the quality of the signal.
 
 
 ## Terminal Box
