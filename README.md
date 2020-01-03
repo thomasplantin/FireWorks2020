@@ -49,8 +49,12 @@ Please note that the wiring of the fuses at the top of the circuit has been insp
 
 ## Communication Protocol
 
-| fe        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Detonator     | Box           | Meaning                               |
+| ------------- |:-------------:| -------------------------------------:|
+| 1             |               | Request to box if fuse 1 is connected |
+|               | 10            | Reponse to det: fuse 1 disconnected   |
+|               | 11            | Reponse to det: fuse 1 connected      |
+
+
+
+
