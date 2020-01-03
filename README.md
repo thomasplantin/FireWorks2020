@@ -16,6 +16,8 @@ The detonator is the main control that the user operates. It features the follow
 - Safety Switch
 - NRF24L01 (to communicate with the terminal box)
 
+The code for the Detonator can be found
+
 
 ## Terminal Box
 
