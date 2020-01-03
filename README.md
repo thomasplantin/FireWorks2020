@@ -49,7 +49,7 @@ Please note that the wiring of the fuses at the top of the circuit has been insp
 
 ## Communication Protocol
 
-| Tables        | Are           | Cool  |
+| fe        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
