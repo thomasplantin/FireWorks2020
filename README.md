@@ -8,13 +8,13 @@ I built this device to wirelessly ignite fireworks for New Year's Eve 2020. Ther
 ## Detonator
 
 The detonator is the main control that the user operates. It features the following components:
-	- Arduino Nano
-	- 20x4 LCD screen
-	- Navigation Button
-	- Select Button
-	- 4 Trigger Buttons
-	- Safety Switch
-	- NRF24L01 (to communicate with the terminal box)
+- Arduino Nano
+- 20x4 LCD screen
+- Navigation Button
+- Select Button
+- 4 Trigger Buttons
+- Safety Switch
+- NRF24L01 (to communicate with the terminal box)
 
 
 ## Terminal Box
