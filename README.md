@@ -50,7 +50,7 @@ Please note that the wiring of the fuses at the top of the circuit has been insp
 ## Communication Protocol
 
 | Detonator     | Box           | Meaning                               |
-| :-----------: |:-------------:| :------------------------------------:|
+| :-----------: |:-------------:| --------------------------------------|
 | 1             |               | Request to box if fuse 1 is connected |
 |               | 10            | Reponse to det: fuse 1 disconnected   |
 |               | 11            | Reponse to det: fuse 1 connected      |
