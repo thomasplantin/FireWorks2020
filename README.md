@@ -51,28 +51,28 @@ Please note that the wiring of the fuses at the top of the circuit has been insp
 
 | Detonator     | Box           | Meaning                                            |
 | :-----------: |:-------------:| ---------------------------------------------------|
-| *4*           |               | *Request to box if box is armed?*                  |
-|               | *40*          | *Reponse to det: box not armed*                    |
-|               | *41*          | *Reponse to det: box armed*                        |
+| `4`           |               | `Request to box if box is armed?`                  |
+|               | `40`          | `Reponse to det: box not armed`                    |
+|               | `41`          | `Reponse to det: box armed`                        |
 | 1             |               | Request to box if fuse 1 is connected?             |
 |               | 10            | Reponse to det: fuse 1 disconnected                |
 |               | 11            | Reponse to det: fuse 1 connected                   |
-| *2*           |               | *Request to box if fuse 2 is connected?*           |
-|               | *20*          | *Reponse to det: fuse 2 disconnected*              |
-|               | *21*          | *Reponse to det: fuse 2 connected*                 |
+| `2`           |               | `Request to box if fuse 2 is connected?`           |
+|               | `20`          | `Reponse to det: fuse 2 disconnected`              |
+|               | `21`          | `Reponse to det: fuse 2 connected`                 |
 | 3             |               | Request to box if fuse 3 is connected?             |
 |               | 30            | Reponse to det: fuse 3 disconnected                |
 |               | 31            | Reponse to det: fuse 3 connected                   |
-| *100*         |               | *Command to box to fire fuse 1*                    |
-|               | *1001*        | *Confirmation to det: fuse 1 fired*                |
+| `100`         |               | `Command to box to fire fuse 1`                    |
+|               | `1001`        | `Confirmation to det: fuse 1 fired`                |
 | 200           |               | Command to box to fire fuse 2                      |
 |               | 2001          | Confirmation to det: fuse 2 fired                  |
-| *300*         |               | *Command to box to fire fuse 3*                    |
-|               | *3001*        | *Confirmation to det: fuse 3 fired*                |
+| `300`         |               | `Command to box to fire fuse 3`                    |
+|               | `3001`        | `Confirmation to det: fuse 3 fired`                |
 | 400           |               | Command to box to fire all fuses                   |
 |               | 4001          | Confirmation to det: all fuses fired               |
-| *5*           |               | *Command to box to enable fire mode*               |
-|               | *51*          | *Confirmation to det: fire mode enabled*           |
+| `5`           |               | `Command to box to enable fire mode`               |
+|               | `51`          | `Confirmation to det: fire mode enabled`           |
 | 0             |               | Command to box to reinitialize box (exit fire mode)|
 |               | 1000          | Confirmation to det: box reinitialized             |
 
