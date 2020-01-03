@@ -24,6 +24,7 @@ The terminal box is the "slave" that receives commands and requests from the det
 - Arduino Nano
 - Armed Switch
 - LEDs (to show when the system is armed and if fuses are correctly connected to the ouputs)
+- LED Warning Strip
 - NRF24L01 (to communicate with the detonator)
 
 The code for the Terminal Box can be found in this repository at "/CODE/FINAL_BOX/FINAL_BOX.ino".
