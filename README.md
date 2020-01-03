@@ -5,7 +5,6 @@ I built this device to wirelessly ignite fireworks for New Year's Eve 2020. Ther
 ![](IMG_4083.jpeg)
 
 ## Detonator
-
 Talk about the detonator
 
 ## Terminal Box
