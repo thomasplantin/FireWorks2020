@@ -25,7 +25,7 @@ This mode automatically runs through the safety check of the system before grant
 
 ### Test Connection
 
-This mode tests the connection between both modules. To do that, the detonator instantiates an array of 8 elements. Each element is assigned a random value between 0 and 255. Then this array is sent to the box. The box processes this array, and then sends back the array that it read. Once the detonator receives this processed array, it compares it with the original array to make sure that they are identical. If they are not, that means that the connection was not good enough. This is done 20 times, and a percentage is derived to quantify the quality of the signal.
+This mode tests the connection between both modules. To do that, the detonator instantiates an array of 8 elements. Each element is assigned a random value between 0 and 255. Then this array is sent to the box. The box processes this array, and then sends back the array that it read. Once the detonator receives this processed array, it compares it with the original array to make sure that they are identical. If they are not, that means that the connection was not good enough for the array to be sent properly. This is done 20 times, and a percentage is derived to quantify the quality of the signal.
 
 
 ## Terminal Box
@@ -42,6 +42,15 @@ The code for the Terminal Box can be found in this repository at "/CODE/FINAL_BO
 
 ## Circuit Schematic
 
+![Circuit Schematic](images/Schematic.pdf)
+
 Please note that the wiring of the fuses at the top of the circuit has been inspired by the following post: https://www.electro-tech-online.com/threads/electronic-firing-system-for-fireworks.21046/post-134180
 
-![Circuit Schematic](images/Schematic.pdf)
+
+## Communication Protocol
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
