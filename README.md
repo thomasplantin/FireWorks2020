@@ -15,7 +15,7 @@ The detonator is the main control that the user operates. It features the follow
 - Safety Switch
 - NRF24L01 (to communicate with the terminal box)
 
-The code for the Detonator can be found at "/CODE/FINAL_DET/FINAL_DET.ino".
+The code for the Detonator can be found in this repository at "/CODE/FINAL_DET/FINAL_DET.ino".
 
 
 ## Terminal Box
@@ -26,4 +26,4 @@ The terminal box is the "slave" that receives commands and requests from the det
 - LEDs (to show when the system is armed and if fuses are correctly connected to the ouputs)
 - NRF24L01 (to communicate with the detonator)
 
-The code for the Terminal Box can be found at "/CODE/FINAL_BOX/FINAL_BOX.ino".
+The code for the Terminal Box can be found in this repository at "/CODE/FINAL_BOX/FINAL_BOX.ino".
