@@ -20,7 +20,7 @@ The detonator is the main control that the user operates. It features the follow
 ## Terminal Box
 
 The terminal box is the "slave" that receives commands and requests from the detonator. It features the following components:
-	- Arduino Nano
-	- Armed Switch
-	- LEDs (to show when the system is armed and if fuses are correctly connected to the ouputs)
-	- NRF24L01 (to communicate with the detonator)
+- Arduino Nano
+- Armed Switch
+- LEDs (to show when the system is armed and if fuses are correctly connected to the ouputs)
+- NRF24L01 (to communicate with the detonator)
