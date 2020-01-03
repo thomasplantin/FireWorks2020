@@ -1,6 +1,6 @@
 # Fireworks Wireless Firing System
 
-I built this device to wirelessly ignite fireworks for New Year's Eve 2020. There are two different modules for this project: a detonator, and a terminal box. In a few words, the way these modules work is that a signal is transmitted from the detonator to the terminal box to turn on one or several of its outputs. Since an electronic fuse is connected to the output, it will ignite the firework that it is linked to when current runs through it. Both of these modules are powered by 12V 3S LiPo batteries.
+I built this device to wirelessly ignite fireworks for New Year's Eve 2020. There are two different modules for this project: a detonator, and a terminal box. In a few words, the way these modules work is that a signal is transmitted from the detonator to the terminal box to turn on one or several of its outputs. Since an electronic fuse is connected to the output, it will ignite the firework that it is linked to when current runs through it. Both of these modules are powered by 12V 3S LiPo batteries. The communication between the two modules is established with a set of integer codes that are explained in the Communication Protocol section of this README.
 
 ![Finished Prod](images/IMG_4083.jpeg)
 
@@ -21,7 +21,11 @@ In the detonator logic, there are two modes that can be accessed: Fire Mode, and
 
 ### Fire Mode
 	
-This mode automatically runs through the 
+This mode automatically runs through the safety check of the system before granting the launch commands. It first sends a request to the box to ensure that it is armed. If it is not armed, a message will be printed to the LCD screen asking the user to arm the box. If it is armed, it will then test the lines to ensure that at least one of the outputs is linked to an electronic fuse. Finally, once the box is armed and the lines have been tested, the user can remove the safety and begin launching fireworks.
+
+### Test Connection
+
+This mode tests the connection between both modules.
 
 
 ## Terminal Box
@@ -40,4 +44,4 @@ The code for the Terminal Box can be found in this repository at "/CODE/FINAL_BO
 
 Please note that the wiring of the fuses at the top of the circuit has been inspired by the following post: https://www.electro-tech-online.com/threads/electronic-firing-system-for-fireworks.21046/post-134180
 
-![Finished Prod](images/Schematic.pdf)
+![Circuit Schematic](images/Schematic.pdf)
